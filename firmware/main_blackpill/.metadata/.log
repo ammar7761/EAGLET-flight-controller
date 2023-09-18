@@ -1,0 +1,48 @@
+!SESSION 2023-09-14 16:46:21.297 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-14 16:46:27.115
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-14 16:46:27.116
+!MESSAGE Log4j2 initialized with config file /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/.metadata/.log4j2.xml
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-09-14 16:46:45.458
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39
+!SESSION 2023-09-17 20:58:05.021 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-17 20:58:09.342
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-17 20:58:09.343
+!MESSAGE Log4j2 initialized with config file /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-17 20:58:12.095
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-09-17 21:00:01.379
+!MESSAGE Indexed 'main_blackpill' (19 sources, 81 headers) in 2.57 sec: 4,234 declarations; 17,738 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0091%)
+!SESSION 2023-09-17 21:00:30.491 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-17 21:00:35.305
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-17 21:00:35.306
+!MESSAGE Log4j2 initialized with config file /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-17 21:00:39.943
+!MESSAGE Started RMI Server, listening on port 41337
