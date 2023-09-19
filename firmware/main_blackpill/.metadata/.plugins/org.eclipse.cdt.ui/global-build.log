@@ -1,0 +1,24 @@
+21:34:33 **** Incremental Build of configuration Debug for project main_blackpill ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:17: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+  109 |   int16_t x, y, z;
+      |                 ^
+../Core/Src/main.c:109:14: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+  109 |   int16_t x, y, z;
+      |              ^
+../Core/Src/main.c:109:11: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+  109 |   int16_t x, y, z;
+      |           ^
+arm-none-eabi-gcc -o "main_blackpill.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/STM32F401CDUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="main_blackpill.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: main_blackpill.elf
+ 
+arm-none-eabi-size   main_blackpill.elf 
+arm-none-eabi-objdump -h -S  main_blackpill.elf  > "main_blackpill.list"
+   text	   data	    bss	    dec	    hex	filename
+  15848	     20	   1892	  17760	   4560	main_blackpill.elf
+Finished building: default.size.stdout
+ 
+Finished building: main_blackpill.list
+ 

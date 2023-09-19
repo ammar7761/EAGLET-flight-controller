@@ -1,0 +1,10 @@
+
+Sep 18, 2023 09:24:43.518 NEW SESSION
+Sep 18, 2023 09:24:43.518 which: no mozilla in (/home/Discord:/home/ammar7761/.avm/bin:/home/ammar7761/nodejs/bin:/home/ammar7761/.local/share/solana/install/active_release/bin:/home/ammar7761/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+Sep 18, 2023 09:24:43.519 which: no netscape in (/home/Discord:/home/ammar7761/.avm/bin:/home/ammar7761/nodejs/bin:/home/ammar7761/.local/share/solana/install/active_release/bin:/home/ammar7761/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+Sep 18, 2023 09:24:43.522 /usr/bin/firefox
+
+Sep 19, 2023 16:28:10.62 NEW SESSION
+Sep 19, 2023 16:28:10.62 which: no mozilla in (/home/ammar7761/.local/share/solana/install/active_release/bin:/home/ammar7761/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+Sep 19, 2023 16:28:10.63 which: no netscape in (/home/ammar7761/.local/share/solana/install/active_release/bin:/home/ammar7761/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+Sep 19, 2023 16:28:10.68 /usr/bin/firefox
