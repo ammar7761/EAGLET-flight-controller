@@ -1,0 +1,335 @@
+2023-09-20 17:03:19,319 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-20 17:03:21,539 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:03:21,540 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:03:21,540 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:03:21,540 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,949 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,957 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,958 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,958 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,978 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,978 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,996 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:02,996 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,804 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,804 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,804 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,805 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,805 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,805 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,824 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,824 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:28,824 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,758 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,758 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,758 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,759 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,759 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,759 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,771 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,771 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,772 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,772 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,845 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,845 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,845 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,846 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,846 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,846 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,860 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,860 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,860 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:56,860 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,695 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,696 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,696 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,697 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,697 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,697 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,728 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,728 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,728 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,728 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,817 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,817 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,817 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,818 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,818 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,818 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,831 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,831 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,831 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:57,831 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,957 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,958 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,958 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,959 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,959 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,959 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,970 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,971 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,971 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:58,971 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,054 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,054 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,054 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,055 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,055 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,055 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,067 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,067 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,067 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:04:59,067 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,015 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,015 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,016 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,016 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,016 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,016 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,028 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,028 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,028 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,028 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,117 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,117 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,117 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,118 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,119 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,119 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,134 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,134 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,135 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,135 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,867 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,867 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,867 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,868 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,868 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,868 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,881 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,881 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,881 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,881 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,969 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,969 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,970 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,971 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,971 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,971 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,987 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,987 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,988 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:32,988 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,267 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,268 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,268 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,268 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,268 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,268 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,278 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,278 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,278 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,278 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,348 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,349 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,349 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,349 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,349 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,349 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,360 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,360 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,360 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:40,360 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,617 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,619 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,619 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,620 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,620 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,620 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,635 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,635 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,635 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,635 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,747 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,747 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,747 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,748 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,748 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,748 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,766 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,766 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,766 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:44,766 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,444 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,444 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,444 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,445 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,445 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,445 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,455 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,455 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,455 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,455 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,521 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,521 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,521 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,522 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,522 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,522 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,531 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,531 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,531 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:48,531 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,516 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,525 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,525 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,527 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,527 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,527 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,550 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,550 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,551 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,551 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,628 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,628 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,628 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,629 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,629 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,629 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,639 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,639 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,639 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:55,639 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,529 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,530 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,530 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,530 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,530 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,530 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,542 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,543 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,543 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,543 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,627 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,628 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,628 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,628 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,628 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,628 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,641 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,642 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,642 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:05:58,642 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,783 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,783 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,783 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,784 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,784 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,784 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,793 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,794 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,794 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,794 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,871 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,872 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,872 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,873 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,873 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,873 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,891 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,891 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,891 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:23,891 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,518 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,518 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,518 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,519 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,519 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,519 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,535 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,535 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,535 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:29,535 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,215 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,215 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,215 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,216 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,216 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,216 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,234 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,234 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,234 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:39,234 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:49,490 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 638362760 Bytes (734003200)
+2023-09-20 17:06:50,996 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 217582856 Bytes (734003200)
+2023-09-20 17:06:51,269 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2023-09-20 17:06:51,269 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-20 17:06:51,269 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-20 17:06:51,269 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2023-09-20 17:06:51,270 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-20 17:06:51,270 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-20 17:06:51,270 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-20 17:06:51,270 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-20 17:06:51,270 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-09-20 17:06:51,272 [INFO] CodeGenerator:799 - code generatio: config db path: /opt/stm32cubeide/plugins/com.st.stm32cube.common.mx_6.9.1.202307191849//db/
+2023-09-20 17:06:51,277 [WARN] IP:2114 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:51,277 [WARN] IP:2114 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:51,319 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:51,319 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:51,319 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 17:06:51,437 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/license.tmp_save
+2023-09-20 17:06:51,532 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/license.tmp
+2023-09-20 17:06:51,551 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/gpio.tmp_save
+2023-09-20 17:06:51,623 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/gpio.tmp
+2023-09-20 17:06:51,656 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-20 17:06:51,659 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2023-09-20 17:06:51,725 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_vars.tmp
+2023-09-20 17:06:51,727 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2023-09-20 17:06:51,781 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_inc.tmp
+2023-09-20 17:06:51,784 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2023-09-20 17:06:51,867 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2023-09-20 17:06:51,869 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2023-09-20 17:06:51,946 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/usb_otg_fs_Msp.tmp
+2023-09-20 17:06:52,136 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-20 17:06:52,147 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-20 17:06:52,150 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usb_device.c_save
+2023-09-20 17:06:52,211 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usb_device.c
+2023-09-20 17:06:52,212 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usb_device.h_save
+2023-09-20 17:06:52,263 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usb_device.h
+2023-09-20 17:06:52,265 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/Target/usbd_conf.h_save
+2023-09-20 17:06:52,321 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/Target/usbd_conf.h
+2023-09-20 17:06:52,322 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/Target/usbd_conf.c_save
+2023-09-20 17:06:52,377 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/Target/usbd_conf.c
+2023-09-20 17:06:52,379 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_desc.h_save
+2023-09-20 17:06:52,427 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_desc.h
+2023-09-20 17:06:52,428 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_desc.c_save
+2023-09-20 17:06:52,486 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_desc.c
+2023-09-20 17:06:52,487 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_cdc_if.h_save
+2023-09-20 17:06:52,539 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_cdc_if.h
+2023-09-20 17:06:52,540 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_cdc_if.c_save
+2023-09-20 17:06:52,592 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/USB_DEVICE/App/usbd_cdc_if.c
+2023-09-20 17:06:52,596 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Src/stm32f4xx_it.c_save
+2023-09-20 17:06:52,937 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Src/stm32f4xx_it.c
+2023-09-20 17:06:52,939 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Inc/stm32f4xx_it.h_save
+2023-09-20 17:06:52,989 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Inc/stm32f4xx_it.h
+2023-09-20 17:06:52,995 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Src/stm32f4xx_hal_msp.c_save
+2023-09-20 17:06:53,083 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Src/stm32f4xx_hal_msp.c
+2023-09-20 17:06:53,085 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/system.tmp_save
+2023-09-20 17:06:53,134 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/MXTmpFiles/system.tmp
+2023-09-20 17:06:53,137 [INFO] CodeEngine:311 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Inc/stm32f4xx_hal_conf.h_save
+2023-09-20 17:06:53,195 [INFO] CodeEngine:335 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Inc/stm32f4xx_hal_conf.h
+2023-09-20 17:06:53,221 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-09-20 17:06:53,222 [WARN] CodeGenerator:3760 - IP not found : null
+2023-09-20 17:06:53,226 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Inc/main.h_save
+2023-09-20 17:06:53,289 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Inc/main.h
+2023-09-20 17:06:53,291 [INFO] CodeEngine:255 - oldGeneratedFile, /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Src/main.c_save
+2023-09-20 17:06:53,371 [INFO] CodeEngine:279 - Generated code: /home/ammar7761/development/EAGLET-flight-controller/firmware/main_blackpill/main_blackpill/Core/Src/main.c
+2023-09-20 17:06:53,810 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 65mS.
+2023-09-20 17:06:53,813 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-20 17:06:53,966 [INFO] ConfigFileManager:1457 - The Die is : DIE433
+2023-09-20 17:06:55,312 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 1499mS.
+2023-09-20 17:06:55,312 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-20 17:06:55,313 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-20 18:00:05,002 [WARN] IP:2114 - DEVICE_SERIAL0_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 18:00:05,014 [WARN] IP:2114 - DEVICE_SERIAL1_CDC_FS not found: check if there is a RefParameter without a condition.
+2023-09-20 18:00:05,014 [WARN] IP:2114 - DEVICE_SERIAL2_CDC_FS not found: check if there is a RefParameter without a condition.
