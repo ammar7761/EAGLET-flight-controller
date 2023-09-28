@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;main_blackpill/Core/Inc/I2c.h&apos; to &apos;mpu6050.h&apos;" description="Rename resource &apos;I2c.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/I2c.h" name="mpu6050.h" stamp="1695117494676" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;main_blackpill/Core/Src/I2c.c&apos; to &apos;mpu6050.c&apos;" description="Rename resource &apos;I2c.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/I2c.c" name="mpu6050.c" stamp="1695117502230" updateReferences="true"/>
-</session>
