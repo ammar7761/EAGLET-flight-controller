@@ -1,0 +1,21 @@
+06:24:19 **** Incremental Build of configuration Debug for project telemetry1 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:53:25: warning: multi-character character constant [-Wmultichar]
+   53 | uint8_t uart1_tx_data = 'mo';
+      |                         ^~~~
+../Core/Src/main.c:53:25: warning: unsigned conversion from 'int' to 'uint8_t' {aka 'unsigned char'} changes value from '28015' to '111' [-Woverflow]
+arm-none-eabi-gcc -o "telemetry1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Ammar\Documents\GitHub\EAGLET-flight-controller\telemetry1\STM32F401CDUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="telemetry1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: telemetry1.elf
+ 
+arm-none-eabi-size   telemetry1.elf 
+arm-none-eabi-objdump -h -S  telemetry1.elf  > "telemetry1.list"
+   text	   data	    bss	    dec	    hex	filename
+  14100	     24	   1888	  16012	   3e8c	telemetry1.elf
+Finished building: default.size.stdout
+ 
+Finished building: telemetry1.list
+ 
+
+06:24:19 Build Finished. 0 errors, 2 warnings. (took 777ms)
+
