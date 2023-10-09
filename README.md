@@ -37,24 +37,24 @@ Compiler and debuuger inside of CubeIDE were used in this project. CubePRogramme
 
 *image for debugger wiring*
 
-##Project module i/o structure
+## Project module i/o structure
 
-####main(planner)
+#### main(planner)
 -from : __filters{uint16_t data[3]}, Rctelemetry{uint8_t buf} ,gcstelemetry{uint8_t buf}, sensors{uint16_t data[3]}__ - 
 
-####filters
+#### filters
 -from : __main__{uint16_t data[3]}
 to : __main__ {uint16_t data[3]}-
-####motorcontrol
+#### motorcontrol
 -from : __main__ {uint16_t data[3]}
 to : __HAL__ {uint16_t PWM[4]-
-####sensors
+#### sensors
 -from : __HAL__
 to : __main__ {uint16_t data[3]}-
-####Rctelemetry
+#### Rctelemetry
 -from : __HAL__ {ibus 32 byte}
 to : __main__ {uint16_t data[3]}-
-####gcstelemetry
+#### gcstelemetry
 -from : __main__ {uint8_t buf}
 to : __main__ {uint8_t buf}-
 
