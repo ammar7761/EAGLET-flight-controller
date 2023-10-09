@@ -2,37 +2,37 @@
 
 ## Project FileSystem
 __
->workspace
->>main_blackpill
->>>Core
->>>Debug
->>>Drivers
->>>Filters
->>>GCS_Telemetry
->>>Motor_Control
->>>Rc_Telemetry
->>>Release
->>>Sensors
->>>Example Codes
->>>>IMU_SPI
->>>>Ibus
->>>>GCS_Telemetry
->>>>IMU_I2c
->references
->>github resources
+> workspace
+>> main_blackpill
+>>> Core
+>>> Debug
+>>> Drivers
+>>> Filters
+>>> GCS_Telemetry
+>>> Motor_Control
+>>> Rc_Telemetry
+>>> Release
+>>> Sensors
+>>> Example Codes
+>>>> IMU_SPI
+>>>> Ibus
+>>>> GCS_Telemetry
+>>>> IMU_I2c
+> references
+>>g ithub resources
 __
 
 ##Project Development Docs
 
-###Init 
+### Init 
 Cubemx or CubeIDE could be used to generate init files. 
 CubeIDE was used. Make sure to select 'c/h scripts per peripheral' from project_manager.
 Clock configration was done by maximizing the frequency of the developmnet card
 
-###Code writing
+### Code writing
 CubeIDE was also used for code writing. Make sure to config build pathes from Project-->preferences-->c/c++ buil general-->paths and symbols. 
 
-###Debugging
+### Debugging
 Compiler and debuuger inside of CubeIDE were used in this project. CubePRogrammer and StUtility are also options for flashing or debugging.
 
 *image for debugger wiring*
