@@ -19,10 +19,10 @@ __
 >>>> GCS_Telemetry
 >>>> IMU_I2c
 > references
->>g ithub resources
+>> github resources
 __
 
-##Project Development Docs
+## Project Development Docs
 
 ### Init 
 Cubemx or CubeIDE could be used to generate init files. 
@@ -40,21 +40,21 @@ Compiler and debuuger inside of CubeIDE were used in this project. CubePRogramme
 ## Project module i/o structure
 
 #### main(planner)
--from : __filters{uint16_t data[3]}, Rctelemetry{uint8_t buf} ,gcstelemetry{uint8_t buf}, sensors{uint16_t data[3]}__ - 
+from : __filters{uint16_t data[3]}, Rctelemetry{uint8_t buf} ,gcstelemetry{uint8_t buf}, sensors{uint16_t data[3]}__
 
 #### filters
--from : __main__{uint16_t data[3]}
-to : __main__ {uint16_t data[3]}-
+from : __main__{uint16_t data[3]}
+to : __main__ {uint16_t data[3]}
 #### motorcontrol
--from : __main__ {uint16_t data[3]}
-to : __HAL__ {uint16_t PWM[4]-
+from : __main__ {uint16_t data[3]}
+to : __HAL__ {uint16_t PWM[4]
 #### sensors
--from : __HAL__
-to : __main__ {uint16_t data[3]}-
+from : __HAL__
+to : __main__ {uint16_t data[3]}
 #### Rctelemetry
--from : __HAL__ {ibus 32 byte}
-to : __main__ {uint16_t data[3]}-
+from : __HAL__ {ibus 32 byte}
+to : __main__ {uint16_t data[3]}
 #### gcstelemetry
--from : __main__ {uint8_t buf}
-to : __main__ {uint8_t buf}-
+from : __main__ {uint8_t buf}
+to : __main__ {uint8_t buf}
 
