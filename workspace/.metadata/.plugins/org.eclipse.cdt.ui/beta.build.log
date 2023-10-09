@@ -1,0 +1,18 @@
+11:45:08 **** Incremental Build of configuration Debug for project beta ****
+make -j12 all 
+arm-none-eabi-gcc "../Rc_Telemetry/ibus.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"/media/ammar7761/1D62-7CA0/workspace/beta/Rc_Telemetry" -I"/media/ammar7761/1D62-7CA0/workspace/beta/Filters" -I"/media/ammar7761/1D62-7CA0/workspace/beta/Motors" -I"/media/ammar7761/1D62-7CA0/workspace/beta/GCS_Telemetry" -I"/media/ammar7761/1D62-7CA0/workspace/beta/Sensors" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Rc_Telemetry/ibus.d" -MT"Rc_Telemetry/ibus.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Rc_Telemetry/ibus.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"/media/ammar7761/1D62-7CA0/workspace/beta/Rc_Telemetry" -I"/media/ammar7761/1D62-7CA0/workspace/beta/Filters" -I"/media/ammar7761/1D62-7CA0/workspace/beta/Motors" -I"/media/ammar7761/1D62-7CA0/workspace/beta/GCS_Telemetry" -I"/media/ammar7761/1D62-7CA0/workspace/beta/Sensors" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "beta.elf" @"objects.list"   -mcpu=cortex-m4 -T"/media/ammar7761/1D62-7CA0/workspace/beta/STM32F401CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="beta.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: beta.elf
+ 
+arm-none-eabi-size   beta.elf 
+arm-none-eabi-objdump -h -S  beta.elf  > "beta.list"
+   text	   data	    bss	    dec	    hex	filename
+  18292	     20	   2196	  20508	   501c	beta.elf
+Finished building: default.size.stdout
+ 
+Finished building: beta.list
+ 
+
+11:45:09 Build Finished. 0 errors, 0 warnings. (took 1s.619ms)
+

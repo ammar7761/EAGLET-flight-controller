@@ -1,0 +1,44 @@
+/*
+ * imu.c
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ammar7761
+ */
+static uint8_t data[6];
+static uint16_t x,y,z;
+static float xg,yg,zg;
+
+void adxl_write(uint8_t adress, uint8_t value){
+	uint8_t data[2];
+	data[0]=adress|0x40;
+	data[1]=value;
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
+	HAL_SPI_Transmit(&hspi2, data, 2, 100);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
+}
+
+void adxl_read(uint8_t adress){
+	adress|=0x40;
+	adress|=0x80;
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_RESET);
+	HAL_SPI_Transmit(&hspi2, &adress, 1, 100);
+	HAL_SPI_Receive(&hspi2, data, 6, 100);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_9, GPIO_PIN_SET);
+}
+
+
+void adxl_init(void){
+	adxl_write(0x31, 0x01);
+	adxl_write(0x2d, 0x00);
+	adxl_write(0x2d, 0x08);
+
+}
+
+x=(data[1]<<8)|(data[0]);
+y=(data[3]<<8)|(data[2]);
+z=(data[5]<<8)|(data[4]);
+
+
+xg=(float)x*0.0078;
+yg=(float)y*0.0078;
+zg=(float)z*0.0078;

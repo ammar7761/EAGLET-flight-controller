@@ -1,0 +1,15 @@
+12:27:01 **** Build of configuration Debug for project beta ****
+make -j12 all 
+arm-none-eabi-gcc "../Sensors/imu_adxl345.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/workspace/beta/Rc_Telemetry" -I"D:/workspace/beta/Filters" -I"D:/workspace/beta/Motors" -I"D:/workspace/beta/GCS_Telemetry" -I"D:/workspace/beta/Sensors" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Sensors/imu_adxl345.d" -MT"Sensors/imu_adxl345.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Sensors/imu_adxl345.o"
+arm-none-eabi-gcc "../GCS_Telemetry/Telemetry.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xC -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/workspace/beta/Rc_Telemetry" -I"D:/workspace/beta/Filters" -I"D:/workspace/beta/Motors" -I"D:/workspace/beta/GCS_Telemetry" -I"D:/workspace/beta/Sensors" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"GCS_Telemetry/Telemetry.d" -MT"GCS_Telemetry/Telemetry.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "GCS_Telemetry/Telemetry.o"
+arm-none-eabi-gcc -o "beta.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\workspace\beta\STM32F401CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="beta.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: beta.elf
+ 
+arm-none-eabi-size   beta.elf 
+arm-none-eabi-objdump -h -S  beta.elf  > "beta.list"
+   text	   data	    bss	    dec	    hex	filename
+  19648	     20	   2284	  21952	   55c0	beta.elf
+Finished building: default.size.stdout
+ 
+Finished building: beta.list
+ 

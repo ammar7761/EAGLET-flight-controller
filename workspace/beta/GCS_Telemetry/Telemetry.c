@@ -1,0 +1,18 @@
+/*
+ * Telemetry.c
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ammar7761
+ */
+
+#include "Telemetry.h"
+
+
+
+
+
+uint8_t ReadTelemetry();
+
+uint8_t WriteTelemetry();
+
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;beta/GCS_Telemetry/Sensors&apos;" deleteContents="false" description="Delete resource &apos;beta/GCS_Telemetry/Sensors&apos;" element1="/beta/GCS_Telemetry/Sensors" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1696838129147"/>&#x0A;<refactoring comment="Delete resource &apos;beta/GCS_Telemetry/Telemetry.c&apos;" deleteContents="false" description="Delete resource &apos;beta/GCS_Telemetry/Telemetry.c&apos;" element1="/beta/GCS_Telemetry/Telemetry.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1696838156200"/>
+</session>

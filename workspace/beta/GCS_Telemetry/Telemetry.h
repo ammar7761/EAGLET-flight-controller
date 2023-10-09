@@ -1,0 +1,19 @@
+/*
+ * Telemetry.h
+ *
+ *  Created on: Oct 9, 2023
+ *      Author: ammar7761
+ */
+
+#ifndef TELEMETRY_H_
+#define TELEMETRY_H_
+#include "main.h"
+
+uint8_t ReadTelemetry();
+uint8_t WriteTelemetry();
+bool TelemetryInıt();
+
+void RxCallBackDma(){
+
+}
+#endif /* TELEMETRY_H_ */
