@@ -1,5 +1,11 @@
 # EAGLET-flight-controller
-
+## Github Repo Usage
+### Clone repo {git clone https://github.com/ammar7761/EAGLET-flight-controller.git}
+### Open git bash {click 'open git bash here' inside the directory where you made clone}
+### add files {git add --all}
+### commit changes {git commit -m 'message'}
+### push changes to remote repo {git push origin}
+#### Your pull request must be review before being pushed
 ## Project FileSystem
 __
 > workspace
