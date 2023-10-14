@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\beta",
+    "\\beta\\Core",
+    "\\beta\\Core\\Src",
+    "\\beta\\Debug\\Core\\Src",
+    "\\beta\\Filters",
+    "\\beta\\GCS_Telemetry",
+    "\\beta\\Sensors"
+  ],
+  "SelectedNode": "\\beta\\Filters\\KalmanFilter.c",
+  "PreviewInSolutionExplorer": false
+}
