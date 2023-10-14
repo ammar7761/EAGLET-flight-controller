@@ -8,6 +8,7 @@
 #ifndef KALMANFILTER_H_
 #define KALMANFILTER_H_
 
+double KALMAN(double U);
 
 
 #endif /* KALMANFILTER_H_ */
