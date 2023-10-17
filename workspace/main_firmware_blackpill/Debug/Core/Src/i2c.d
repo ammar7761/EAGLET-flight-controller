@@ -29,18 +29,7 @@ Core/Src/i2c.o: ../Core/Src/i2c.c ../Core/Inc/i2c.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/mpu6050.h \
- ../Core/Inc/main.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Rc_Telemetry/ibus.h \
- ../Core/Inc/usart.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Filters/KalmanFilter.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Filters/PID.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Motor_Control/MotorControl.h \
- ../Core/Inc/tim.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/GCS_Telemetry/Telemetry.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/imu_adxl345.h \
- ../Core/Inc/spi.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 ../Core/Inc/i2c.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -74,14 +63,3 @@ Core/Src/i2c.o: ../Core/Src/i2c.c ../Core/Inc/i2c.h ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/mpu6050.h:
-../Core/Inc/main.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Rc_Telemetry/ibus.h:
-../Core/Inc/usart.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Filters/KalmanFilter.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Filters/PID.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Motor_Control/MotorControl.h:
-../Core/Inc/tim.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/GCS_Telemetry/Telemetry.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/imu_adxl345.h:
-../Core/Inc/spi.h:

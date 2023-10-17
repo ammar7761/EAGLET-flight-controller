@@ -31,16 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "mpu6050.h"
-#include "stdbool.h"
-#include "stdio.h"
-#include "ibus.h"
-#include "KalmanFilter.h"
-#include "PID.h"
-#include "Telemetry.h"
-#include "imu_adxl345.h"
-#include "mpu6050.h"
-#include "MotorControl.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

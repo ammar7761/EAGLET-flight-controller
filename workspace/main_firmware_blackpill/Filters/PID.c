@@ -7,7 +7,7 @@
 #include "PID.h"
 
 void PIDcontroller(PID_data *pid_data,
-		MPU6050_t *mpu6050_t,
+		MPU6050_t *imu,
 		DES_values *DesVal,
 		MOTOR_values *motor_values){
 	if(imu->KalmanAngleX>128){imu->KalmanAngleX-=-65536;}
@@ -15,28 +15,28 @@ void PIDcontroller(PID_data *pid_data,
 	if(imu->Gz>128){imu->Gz-=-65536;}
 	imu->KalmanAngleX=-imu->KalmanAngleX;
 
-	Data_PID->xerror=(imu->KalmanAngleX-desval->DESpitch);
-	Data_PID->xtotal_error=(Data_PID->xtotal_error+Data_PID->xerror);
-	Data_PID->xPID=(Data_PID->xerror*Data_PID->Kp)+
-			((Data_PID->xlast_error-Data_PID->xerror)*Data_PID->Kd)+
-			(Data_PID->xtotal_error*Data_PID->Ki);
+	pid_data->xerror=(imu->KalmanAngleX-DesVal->DESpitch);
+	pid_data->xtotal_error=(pid_data->xtotal_error+pid_data->xerror);
+	pid_data->xPID=(pid_data->xerror*pid_data->Kp)+
+			((pid_data->xlast_error-pid_data->xerror)*pid_data->Kd)+
+			(pid_data->xtotal_error*pid_data->Ki);
 	HAL_Delay(10);
-	Data_PID->xlast_error=Data_PID->xerror;
-	if (Data_PID->xPID<-2000){Data_PID->xPID=-2000;}
-	if(Data_PID->xPID>2000){Data_PID->xPID=2000;}
-	Data_PID->xPID=Data_PID->xPID/4;
+	pid_data->xlast_error=pid_data->xerror;
+	if (pid_data->xPID<-2000){pid_data->xPID=-2000;}
+	if(pid_data->xPID>2000){pid_data->xPID=2000;}
+	pid_data->xPID=pid_data->xPID/4;
 
-	Data_PID->yerror=(imu->KalmanAngleY-desval->DESroll);
-	Data_PID->ytotal_error=(Data_PID->ytotal_error+Data_PID->yerror);
-	Data_PID->yPID=(Data_PID->yerror*Data_PID->Kp)+
-			((Data_PID->ylast_error-Data_PID->yerror)*Data_PID->Kd)+
-			(Data_PID->ytotal_error*Data_PID->Ki);
+	pid_data->yerror=(imu->KalmanAngleY-DesVal->DESroll);
+	pid_data->ytotal_error=(pid_data->ytotal_error+pid_data->yerror);
+	pid_data->yPID=(pid_data->yerror*pid_data->Kp)+
+			((pid_data->ylast_error-pid_data->yerror)*pid_data->Kd)+
+			(pid_data->ytotal_error*pid_data->Ki);
 	HAL_Delay(10);
-	Data_PID->ylast_error=Data_PID->yerror;
-	if (Data_PID->yPID<-2000){Data_PID->yPID=-2000;}
-	if(Data_PID->yPID>2000){Data_PID->yPID=2000;}
-	Data_PID->yPID=Data_PID->yPID/4;
-	SetESC(desval, motor_value, Data_PID);
+	pid_data->ylast_error=pid_data->yerror;
+	if (pid_data->yPID<-2000){pid_data->yPID=-2000;}
+	if(pid_data->yPID>2000){pid_data->yPID=2000;}
+	pid_data->yPID=pid_data->yPID/4;
+	SetESC(DesVal, motor_values, pid_data);
 }
 
 

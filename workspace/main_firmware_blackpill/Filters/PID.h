@@ -36,7 +36,7 @@ PID_data pid_data;
 DES_values des_values;
 
 void PIDcontroller(PID_data *pid_data,
-				MPU6050_t *mpu6050_t,
+				MPU6050_t *imu,
 				DES_values *DesVal,
 				MOTOR_values *motor_values);
 
