@@ -1,4 +1,6 @@
-Filters/PID.o: ../Filters/PID.c ../Filters/PID.h ../Core/Inc/main.h \
+Filters/PID.o: ../Filters/PID.c ../Filters/PID.h \
+ /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/mpu6050.h \
+ ../Core/Inc/i2c.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -30,11 +32,11 @@ Filters/PID.o: ../Filters/PID.c ../Filters/PID.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
- /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/mpu6050.h \
- ../Core/Inc/i2c.h ../Core/Inc/main.h \
  /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Motor_Control/MotorControl.h \
  ../Core/Inc/tim.h
 ../Filters/PID.h:
+/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/mpu6050.h:
+../Core/Inc/i2c.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -67,8 +69,5 @@ Filters/PID.o: ../Filters/PID.c ../Filters/PID.h ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
-/home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Sensors/mpu6050.h:
-../Core/Inc/i2c.h:
-../Core/Inc/main.h:
 /home/ammar7761/Desktop/github/EAGLET-flight-controller/workspace/main_firmware_blackpill/Motor_Control/MotorControl.h:
 ../Core/Inc/tim.h:

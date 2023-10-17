@@ -81,6 +81,22 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+	PID_data pid_data;
+	DES_values des_values;
+	RC_data rc_data;
+	MPU6050_t mpu6050_t;
+	Kalman_t KalmanX = {
+			.Q_angle = 0.001f,
+			.Q_bias = 0.003f,
+			.R_measure = 0.03f
+	};
+
+	Kalman_t KalmanY = {
+			.Q_angle = 0.001f,
+			.Q_bias = 0.003f,
+			.R_measure = 0.03f,
+	};
+	MOTOR_values  motor_values;
 
   /* USER CODE END 1 */
 
@@ -130,11 +146,11 @@ int main(void)
 	 /*
 
 	  */
-	 ibus_read(ibus_read);
+	 ibus_read(&rc_data);
 	 MPU6050_Read_All(&hi2c1, &mpu6050_t);
 	 KalmanSolve(&mpu6050_t,&KalmanX, &KalmanY);
 	 PIDcontroller(&pid_data, &mpu6050_t, &des_values, &motor_values);
-
+	 Drive_ESC(&motor_values);
 	 HAL_Delay(10);
     /* USER CODE END WHILE */
 

@@ -7,7 +7,6 @@
 #pragma once
 
 #include "tim.h"
-#include "main.h"
 
 typedef struct{
 	float R1;
@@ -16,11 +15,10 @@ typedef struct{
 	float L2;
 }MOTOR_values;
 
-MOTOR_values motor_values;
 
 
-void PWMinit(TIM_HandleTypeDef *tim);
+void PWMinit();
 
-void Drive_ESC(TIM_HandleTypeDef *tim, MOTOR_values *data);
+void Drive_ESC(MOTOR_values *data);
 
 

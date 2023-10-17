@@ -6,7 +6,6 @@
  */
 #pragma once
 
-#include "main.h"
 #include "mpu6050.h"
 #include "MotorControl.h"
 
@@ -32,8 +31,7 @@ typedef struct{
 	float yPID;
 }PID_data;
 
-PID_data pid_data;
-DES_values des_values;
+
 
 void PIDcontroller(PID_data *pid_data,
 				MPU6050_t *imu,

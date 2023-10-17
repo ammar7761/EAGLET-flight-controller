@@ -6,6 +6,13 @@
  */
 #include "PID.h"
 
+void SetESC(DES_values *desval,MOTOR_values *MOTORvalues,PID_data *pid){
+	MOTORvalues->R1=desval->DESthrottle+desval->DESyaw+((pid->yPID+pid->xPID)/2);
+	MOTORvalues->R2=desval->DESthrottle-desval->DESyaw+((pid->yPID-pid->xPID)/2);
+	MOTORvalues->L1=desval->DESthrottle-desval->DESyaw+((pid->yPID+pid->xPID)/2);
+	MOTORvalues->L2=desval->DESthrottle+desval->DESyaw+((-pid->yPID-pid->xPID)/2);
+}
+
 void PIDcontroller(PID_data *pid_data,
 		MPU6050_t *imu,
 		DES_values *DesVal,
@@ -40,9 +47,4 @@ void PIDcontroller(PID_data *pid_data,
 }
 
 
-void SetESC(DES_values *desval,MOTOR_values *MOTORvalues,PID_data *pid){
-	MOTORvalues->R1=desval->DESthrottle+desval->DESyaw+((pid->yPID+pid->xPID)/2);
-	MOTORvalues->R2=desval->DESthrottle-desval->DESyaw+((pid->yPID-pid->xPID)/2);
-	MOTORvalues->L1=desval->DESthrottle-desval->DESyaw+((pid->yPID+pid->xPID)/2);
-	MOTORvalues->L2=desval->DESthrottle+desval->DESyaw+((-pid->yPID-pid->xPID)/2);
-}
+

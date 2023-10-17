@@ -99,8 +99,8 @@ bool ibus_read(RC_data *rc_data)
 
 	ibus_update(&ibus_data);
 
-	rc_data->pitch = ibus_data[0];
-	rc_data->yaw = ibus_data[1];
+	rc_data->roll = ibus_data[0];
+	rc_data->pitch = ibus_data[1];
 	rc_data->throttle = ibus_data[2];
 	rc_data->yaw = ibus_data[3];
 	rc_data->switch1 = ibus_data[4];

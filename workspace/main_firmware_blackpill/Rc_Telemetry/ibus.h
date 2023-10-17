@@ -1,8 +1,5 @@
 /*
- * flysky_ibus.h
- * 
- *  Created on: Feb 4, 2021
- *      Author: mokhwasomssi
+
  */
 
 
@@ -35,7 +32,6 @@ typedef struct{
 	int switch2;
 }RC_data;
 
-RC_data rc_data;
 
 
 /* Main Functions */

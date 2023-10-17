@@ -7,7 +7,6 @@
 #pragma once
 
 #include "i2c.h"
-#include "main.h"
 
 typedef struct{
 
@@ -33,7 +32,6 @@ typedef struct{
 
 }MPU6050_t;
 
-MPU6050_t mpu6050_t;
 
 
 uint8_t MPU6050_Init(I2C_HandleTypeDef *I2Cx);
