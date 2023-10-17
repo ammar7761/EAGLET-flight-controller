@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EAGLET-flight-controller",
+    "\\EAGLET-flight-controller\\workspace",
+    "\\EAGLET-flight-controller\\workspace\\main_firmware_blackpill",
+    "\\EAGLET-flight-controller\\workspace\\main_firmware_blackpill\\GCS_Telemetry"
+  ],
+  "SelectedNode": "\\EAGLET-flight-controller\\workspace\\main_firmware_blackpill\\GCS_Telemetry\\Telemetry.c",
+  "PreviewInSolutionExplorer": false
+}
