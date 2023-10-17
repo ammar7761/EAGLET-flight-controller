@@ -27,6 +27,7 @@ Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
 Filters \
 GCS_Telemetry \
-Rc_Telemetry \
+Motor_Control \
+Rc \
 Sensors \
 

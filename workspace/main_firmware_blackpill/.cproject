@@ -83,13 +83,13 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Rc_Telemetry"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Filters"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Sensors"/>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Motors"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Filters"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="GCS_Telemetry"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Motor_Control"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Rc"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Sensors"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

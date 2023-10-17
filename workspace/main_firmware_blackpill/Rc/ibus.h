@@ -3,8 +3,7 @@
  */
 
 
-#ifndef __IBUS_H__
-#define __IBUS_H__
+#pragma once
 
 #include "main.h"
 #include "usart.h"              // header from stm32cubemx code generate
@@ -36,9 +35,4 @@ typedef struct{
 
 /* Main Functions */
 void ibus_init();
-bool ibus_read(RC_data *rc_data);
-
-
-
-
-#endif /* __IBUS_H__ */
+int ibus_read(RC_data *rc_data);

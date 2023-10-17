@@ -64,7 +64,11 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
+void SystemClock_Config(void);
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 
+int report_error(char *err_msg, int cont);
+int init(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/

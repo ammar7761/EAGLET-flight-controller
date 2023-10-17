@@ -1,0 +1,7 @@
+../Rc/ibus.c:20:6:ibus_init	1
+../Rc/ibus.c:28:6:ibus_is_valid	3
+../Rc/ibus.c:34:6:ibus_checksum	2
+../Rc/ibus.c:48:6:ibus_update	2
+../Rc/ibus.c:61:6:ibus_soft_failsafe	4
+../Rc/ibus.c:83:6:ibus_reset_failsafe	1
+../Rc/ibus.c:93:5:ibus_read	3

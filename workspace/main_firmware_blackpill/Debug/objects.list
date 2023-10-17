@@ -33,6 +33,7 @@
 "./Filters/KalmanFilter.o"
 "./Filters/PID.o"
 "./GCS_Telemetry/Telemetry.o"
-"./Rc_Telemetry/ibus.o"
+"./Motor_Control/MotorControl.o"
+"./Rc/ibus.o"
 "./Sensors/imu_adxl345.o"
 "./Sensors/mpu6050.o"

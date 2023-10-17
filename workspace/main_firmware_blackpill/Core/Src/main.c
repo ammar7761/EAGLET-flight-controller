@@ -30,13 +30,13 @@
 //Kütüphanelerin .h larını burada include et
 
 #include "mpu6050.h"
-#include "ibus.h"
 #include "KalmanFilter.h"
 #include "PID.h"
 #include "Telemetry.h"
-#include "imu_adxl345.h"
 #include "mpu6050.h"
 #include "MotorControl.h"
+
+#include "../../Rc/ibus.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -63,9 +63,7 @@
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
-void SystemClock_Config(void);
-/* USER CODE BEGIN PFP */
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -78,6 +76,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
   * @brief  The application entry point.
   * @retval int
   */
+
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -103,29 +102,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
 
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
-  /* Configure the system clock */
-  SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-  ibus_init();
-  adxl_init();
-  MPU6050_Init(&hi2c1);
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_DMA_Init();
-  MX_I2C1_Init();
-  MX_USART1_UART_Init();
-  MX_USART2_UART_Init();
-  MX_TIM3_Init();
-  MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
   /*
    callibrateGyro();
@@ -133,23 +110,32 @@ int main(void)
    pidReset();
 
       */
-
-
-
-
+  if (init() == 1)
+    report_error("Could not intialize the vehicle.", false);
   /* USER CODE END 2 */
 
-  /* Infinite loop */
+
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	 /*
+	 ibus_read(
+			 &rc_data);
 
-	  */
-	 ibus_read(&rc_data);
-	 MPU6050_Read_All(&hi2c1, &mpu6050_t);
-	 KalmanSolve(&mpu6050_t,&KalmanX, &KalmanY);
-	 PIDcontroller(&pid_data, &mpu6050_t, &des_values, &motor_values);
+	 MPU6050_Read_All(
+			 &hi2c1,
+			 &mpu6050_t);
+
+	 KalmanSolve(
+			 &mpu6050_t,
+			 &KalmanX,
+			 &KalmanY);
+
+	 PIDcontroller(
+			 &pid_data,
+			 &mpu6050_t,
+			 &des_values,
+			 &motor_values);
+
 	 Drive_ESC(&motor_values);
 	 HAL_Delay(10);
     /* USER CODE END WHILE */
@@ -163,6 +149,39 @@ int main(void)
   * @brief System Clock Configuration
   * @retval None
   */
+
+int init(void){
+	  HAL_Init();
+
+	  /* USER CODE BEGIN Init */
+
+	  /* USER CODE END Init */
+
+	  /* Configure the system clock */
+	  SystemClock_Config();
+
+	  /* USER CODE BEGIN SysInit */
+	  ibus_init();
+	  adxl_init();
+	  MPU6050_Init(&hi2c1);
+	  /* USER CODE END SysInit */
+
+	  /* Initialize all configured peripherals */
+	  MX_GPIO_Init();
+	  MX_DMA_Init();
+	  MX_I2C1_Init();
+	  MX_USART1_UART_Init();
+	  MX_USART2_UART_Init();
+	  MX_TIM3_Init();
+	  MX_SPI2_Init();
+
+	  return 0;
+}
+
+int report_error(char *err_msg, int cont){
+	return 1;
+}
+
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};

@@ -6,7 +6,8 @@
  */
 
 
-#include "ibus.h"
+#include "../Rc/ibus.h"
+
 #include "stdbool.h"
 
 /* Static variable */
@@ -89,7 +90,7 @@ void ibus_reset_failsafe()
 
 
 
-bool ibus_read(RC_data *rc_data)
+int ibus_read(RC_data *rc_data)
 {
 	if(!ibus_is_valid())
 		return false;

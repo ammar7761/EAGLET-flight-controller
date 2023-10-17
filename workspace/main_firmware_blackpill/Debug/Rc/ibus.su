@@ -1,0 +1,7 @@
+../Rc/ibus.c:20:6:ibus_init	8	static
+../Rc/ibus.c:28:6:ibus_is_valid	4	static
+../Rc/ibus.c:34:6:ibus_checksum	24	static
+../Rc/ibus.c:48:6:ibus_update	24	static
+../Rc/ibus.c:61:6:ibus_soft_failsafe	24	static
+../Rc/ibus.c:83:6:ibus_reset_failsafe	4	static
+../Rc/ibus.c:93:5:ibus_read	16	static

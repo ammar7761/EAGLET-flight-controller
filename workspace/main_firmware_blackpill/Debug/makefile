@@ -10,7 +10,8 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Sensors/subdir.mk
--include Rc_Telemetry/subdir.mk
+-include Rc/subdir.mk
+-include Motor_Control/subdir.mk
 -include GCS_Telemetry/subdir.mk
 -include Filters/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
