@@ -9,11 +9,9 @@
 #define TELEMETRY_H_
 #include "main.h"
 
-uint8_t ReadTelemetry();
-uint8_t WriteTelemetry();
+void ReadTelemetry(uint8_t* rxbuf,uint8_t Size);
+void WriteTelemetry(uint8_t* rxbuf,uint8_t Size);
 bool TelemetryInıt();
 
-void RxCallBackDma(){
 
-}
 #endif /* TELEMETRY_H_ */

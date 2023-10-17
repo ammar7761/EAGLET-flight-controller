@@ -7,11 +7,12 @@
 
 
 #include "ibus.h"
-
+#include "stdbool.h"
 
 /* Static variable */
 static uint8_t uart_rx_buffer[IBUS_LENGTH] = {0};
 static uint8_t fail_safe_flag = 0;
+uint16_t ibus_data[IBUS_USER_CHANNELS];
 
 
 /* Main Functions */
@@ -20,17 +21,6 @@ void ibus_init()
 	HAL_UART_Receive_DMA(IBUS_UART, uart_rx_buffer, 32);
 }
 
-bool ibus_read(uint16_t* ibus_data)
-{
-	if(!ibus_is_valid())
-		return false;
-
-	if(!ibus_checksum())
-		return false;
-
-	ibus_update(ibus_data);
-	return true;
-}
 
 
 /* Sub Functions */
@@ -60,6 +50,7 @@ void ibus_update(uint16_t* ibus_data)
 	{
 		ibus_data[ch_index] = uart_rx_buffer[bf_index + 1] << 8 | uart_rx_buffer[bf_index];
 	}
+
 	HAL_Delay(100);
 }
 
@@ -98,6 +89,27 @@ void ibus_reset_failsafe()
 
 
 
+bool ibus_read(RC_data *rc_data)
+{
+	if(!ibus_is_valid())
+		return false;
+
+	if(!ibus_checksum())
+		return false;
+
+	ibus_update(&ibus_data);
+
+	rc_data->pitch = ibus_data[0];
+	rc_data->yaw = ibus_data[1];
+	rc_data->throttle = ibus_data[2];
+	rc_data->yaw = ibus_data[3];
+	rc_data->switch1 = ibus_data[4];
+	rc_data->switch2 = ibus_data[5];
+	ibus_soft_failsafe(&ibus_data, 10);
+
+
+	return true;
+}
 
 
 
