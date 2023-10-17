@@ -1,0 +1,2 @@
+../Filters/KalmanFilter.c:14:8:Kalman_getAngle	104	static
+../Filters/KalmanFilter.c:43:6:KalmanSolve	80	static

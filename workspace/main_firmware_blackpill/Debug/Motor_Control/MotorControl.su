@@ -1,0 +1,2 @@
+../Motor_Control/MotorControl.c:10:6:PWMinit	8	static
+../Motor_Control/MotorControl.c:17:6:Drive_ESC	16	static
